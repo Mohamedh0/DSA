@@ -1,14 +1,13 @@
 #pragma once
 
-template <class TY>
-class Node{
+template <class Ty>
+class Node
+{
 public:
-    TY value;
-    Node* next;
+	Ty value;
+	Node* next;
 
-private:
-    Node(TY value, Node* next){
-        this->value = value;
-        this->next = next;
-    }
+	Node(Ty value, Node* next)
+		: value(value), next(next)
+	{}
 };
