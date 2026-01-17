@@ -18,4 +18,8 @@ int main(){
     // Search
     cout<< bst.find(300)<<endl;
     cout<< bst.find(50)<<endl;
+
+    // Erase
+    bst.erase(500);
+    cout<< bst.find(500);
 }
